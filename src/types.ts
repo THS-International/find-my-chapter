@@ -1,0 +1,35 @@
+type ProgramType =
+	| "master"
+	| "exchange"
+	| "joint"
+	| "dual"
+	| "phd"
+	| "double"
+	| "bachelor"
+	| "civil"
+	| "hogskol";
+type Chapters =
+	| "A"
+	| "B"
+	| "CL"
+	| "D"
+	| "E"
+	| "F"
+	| "I"
+	| "IsF"
+	| "IsB"
+	| "IT"
+	| "K"
+	| "M"
+	| "Me"
+	| "MiT"
+    | "OPEN"
+	| "P"
+	| "S"
+	| "T"
+	| "W"
+	| "Dr"
+	| "Fria"
+	| "TBas";
+
+export type { ProgramType, Chapters };
