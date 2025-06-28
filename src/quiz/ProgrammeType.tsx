@@ -18,7 +18,7 @@ function ProgrammeTypeSelector({
 				select Master's Degree
 			</p>
 			<select
-				className="rounded bg-amber-300 dark:bg-amber-600 text-gray-800 dark:text-gray-200 font-bold py-2 px-4 mt-4 mb-8 text-xl mx-6 m-24"
+				className="rounded bg-amber-300 dark:bg-amber-600 text-gray-800 dark:text-gray-200 font-bold py-2 px-4 mt-4 mb-8 text-xl mx-6 m-24 max-w-[75vw]"
 				value={programmeType}
 				onChange={(e) => setProgrammeType(e.target.value as ProgramType)}
 			>

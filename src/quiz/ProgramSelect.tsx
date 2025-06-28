@@ -57,7 +57,6 @@ function ProgrammeSelector({
 				className="text-ellipsis rounded bg-amber-300 dark:bg-amber-600 text-gray-800 dark:text-gray-200 font-bold py-2 px-4 mt-4 mb-8 text-s md:text-l lg:text-xl mx-6 m-24 max-w-[75vw]"
 				value={programme}
 				onChange={(e) => {
-					// console.log(e.target.value);
 					setProgramme(e.target.value);
 				}}
 			>
