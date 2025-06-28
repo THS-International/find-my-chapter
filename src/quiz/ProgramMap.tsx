@@ -641,11 +641,16 @@ const programMap: Partial<Record<ProgramType, Program[]>> = {
 	],
 };
 const exchangePrograms = [
+	{ name: "Architecture", chapter: "A" },
 	{ name: "Biotechnology", chapter: "K" },
+	{ name: "Civil Engineering and Urban Management", chapter: "S" },
 	{ name: "Computer Science and Technology", chapter: "D" },
 	{ name: "Design and Product Realisation", chapter: "M" },
 	{ name: "Electrical Engineering", chapter: "E" },
 	{ name: "Energy and Environment", chapter: "W" },
+	{ name: "Engineering Physics", chapter: "F" },
+	{ name: "Engineering Chemistry", chapter: "K" },
+	{ name: "Engineering Mathematics", chapter: "F" },
 	{ name: "Vehicle Engineering", chapter: "T" },
 	{ name: "Industrial Engineering and Management", chapter: "I" },
 	{ name: "Industrial Technology and Sustainability", chapter: "W" },
@@ -654,11 +659,6 @@ const exchangePrograms = [
 	{ name: "Materials Design and Engineering", chapter: "B" },
 	{ name: "Medical Engineering", chapter: "MiT" },
 	{ name: "Media Technology", chapter: "Me" },
-	{ name: "Civil Engineering and Urban Management", chapter: "S" },
-	{ name: "Engineering Physics", chapter: "F" },
-	{ name: "Engineering Chemistry", chapter: "K" },
-	{ name: "Engineering Mathematics", chapter: "F" },
-	{ name: "Architecture", chapter: "A" },
 ];
 
 export { programMap, exchangePrograms };

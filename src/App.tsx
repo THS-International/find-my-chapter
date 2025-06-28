@@ -14,15 +14,15 @@ function App() {
 
 			<footer className="w-full flex flex-col items-center mt-8">
 				<img
-					src="/ths-logo.png"
+					src="./ths-logo.png"
 					alt="THS Logo"
 					className="mx-auto w-48 sm:w-75 h-auto"
 				/>
 				<p className="text-center text-gray-700 dark:text-gray-200 mt-2 mb-4 w-full px-4">
-					Created by Dylan Horn Kreiner in 2025. For any issues (like your
+					Created by Dylan Horn Kreiner in 2025. This site is still under development (clearly lol) for any urgent issues (like your
 					programme not being listed), please contact{" "}
-					<a href="mailto:international@ths.kth.se" className="underline">
-						international@ths.kth.se
+					<a href="mailto:it@thsint.se" className="underline">
+						it@thsint.se
 					</a>
 				</p>
 			</footer>
