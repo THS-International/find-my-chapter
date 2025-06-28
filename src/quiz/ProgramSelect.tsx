@@ -24,7 +24,7 @@ function ProgrammeSelector({
 				setProgramme(`${programList[0].code}0`);
 			}
 		}
-	});
+	}, []);
 	const buildProgrammeList = (programmeType: ProgramType) => {
 		if (programmeType === "exchange") {
 			const exchangeList = exchangePrograms.map((program, index) => (
