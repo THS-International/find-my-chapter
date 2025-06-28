@@ -88,7 +88,7 @@ const showChapterInfo = (chapter: Chapters) => {
 					Lärarsektionen (CL) is the chapter for students in the Teacher's
 					programme at KTH. The chapter is a part of THS and works to improve
 					the education and study environment for all students in the programme.
-					Lärarsektionen (CL) also organises social activities and events for
+					Lärarsektionen (CL) also organise social activities and events for
 					its members. You will be contacted closer to study start by the
 					chapter for your reception.
 				</p>
@@ -768,7 +768,7 @@ const showChapterInfo = (chapter: Chapters) => {
 					The Mechanical Engineering Chapter (M) is the chapter for students in
 					the Mechanical Engineering related programmes at KTH. The chapter is a
 					part of THS and works to improve the education and study environment
-					for all students in the programmes. We also organises social
+					for all students in the programmes. We also organise social
 					activities and events for our members.
 				</p>
 				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">

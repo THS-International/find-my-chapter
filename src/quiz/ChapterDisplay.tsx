@@ -13,7 +13,6 @@ function ChapterDisplay({
 	programmeType,
 	programme,
 }: Props) {
-
 	const getChapter = (programmeType: ProgramType, programme: string) => {
 		if (programmeType === "phd") {
 			return "Dr";
@@ -29,7 +28,6 @@ function ChapterDisplay({
 				return p.code === programme.slice(0, 5);
 			}
 		) as Program;
-		console.log(program);
 		return program.chapter as Chapters;
 	};
 
