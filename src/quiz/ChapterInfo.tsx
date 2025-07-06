@@ -32,7 +32,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						Email:{" "}
 						<a
 							className="dark:text-orange-400 text-cyan-600 underline"
-							href="mailto: internationellstudent@arkitektursektionen.se"
+							href="mailto:internationellstudent@arkitektursektionen.se"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -140,7 +140,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						Email:{" "}
 						<a
 							className="dark:text-orange-400 text-cyan-600 underline"
-							href="mailto: isc@datasektionen.se"
+							href="mailto:isc@datasektionen.se"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
