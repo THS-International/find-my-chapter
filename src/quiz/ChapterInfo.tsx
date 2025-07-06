@@ -3,8 +3,8 @@ import type { Chapters } from "../types";
 const showChapterInfo = (chapter: Chapters) => {
 	if (chapter === "A") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Architecture Chapter
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -14,12 +14,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					contexts, but above all, having fun. Arkitektursektionen (A) is there
 					to help you realize your ideas.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p>
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://arkitektursektionen.se/en/english/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Email:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="mailto: internationellstudent@arkitektursektionen.se"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -45,8 +45,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "B") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Material Design Chapter (B)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -61,12 +61,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					environment during your time at KTH. The chapter has very good
 					relations with companies primary within manufacturing industry.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://https://bergssektionen.se"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -80,8 +80,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "CL") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Teacher's Chapter
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -97,8 +97,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "D") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Computer Science Chapter (D)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -110,12 +110,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					fraternity (but more open). In the chapter there are several groups
 					doing specific stuff that interests them.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://https://datasektionen.se"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -127,7 +127,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						META Student Website (between D and Me Chapters):{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://metastudent.se"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -139,7 +139,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Email:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="mailto: isc@datasektionen.se"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -151,7 +151,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Discord:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://dsekt.se/discord"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -163,7 +163,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						WhatsApp:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://dsekt.se/whatsapp"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -177,8 +177,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "E") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Electrical Engineering Chapter (E)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -186,12 +186,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					with the chapter of Medical Engineering. Check our communication
 					channels for info about upcoming events!
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://elektrosektionen.se/?lang=en"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -203,7 +203,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						WhatsApp:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://chat.whatsapp.com/ByO9eqVVnjE2e2UkoyFfqM"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -215,7 +215,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Instagram:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/emit_international/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -227,7 +227,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Facebook:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/emit-international/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -241,8 +241,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "MiT") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Medical Technology Chapter (MiT)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -250,12 +250,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					Electrical engineering! Check our communication channels for info
 					about upcoming events!
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://mit-kth.se/en/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -267,7 +267,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						WhatsApp:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://chat.whatsapp.com/ByO9eqVVnjE2e2UkoyFfqM"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -279,7 +279,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Instagram:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/emit_international/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -291,7 +291,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Facebook:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/emit-international/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -305,8 +305,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "I") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Industrial Management Chapter (I)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -317,12 +317,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					and events for its members. Join our Whatsapp group! There we publish
 					all fun events happening 😎
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.iare.se/en/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -334,7 +334,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Facebook:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/share/g/16D9GewDKh/?mibextid=wwXIfr"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -346,7 +346,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						WhatsApp:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://chat.whatsapp.com/H7FKvX1a7p84XL9yASyC8y"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -358,7 +358,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Email:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="mailto:international@iare.nu"
 						>
 							international@iare.nu
@@ -370,8 +370,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "T") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Flight Chapter (T)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -381,12 +381,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					pages. For access to the community group, reach out to an admin or
 					someone else in the chapter!
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://flygsektionen.se/the-flight-chapter/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -398,7 +398,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Instagram:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/flygsektionen/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -410,7 +410,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Facebook:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/flygsektionen"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -422,7 +422,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Event Calendar:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://flygsektionen.se/events/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -434,7 +434,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Bar:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/kfk_flyg/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -446,7 +446,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						International Group:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/integrflightchapter/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -458,7 +458,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Community Group:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/groups/kulmedflyg/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -472,8 +472,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "S") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Civil Engineering Chapter (S)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -482,12 +482,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					to date on all the fun events, from craft nights to the legendary
 					oaSen pub nights. 💚💚
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://s-sektionen.se/en/hem-english"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -499,7 +499,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Instagram:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/ssektionen/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -511,7 +511,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Facebook:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/samhallsbyggnad/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -522,7 +522,7 @@ const showChapterInfo = (chapter: Chapters) => {
 					<p className="break-all">
 						S-chapter international reception (AMBA) 2025 WhatsApp group:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://chat.whatsapp.com/ChYdVhbDoxz36fLmA7f5pz"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -533,7 +533,7 @@ const showChapterInfo = (chapter: Chapters) => {
 					<p className="break-all">
 						Facebook group:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/groups/470758369396181/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -547,8 +547,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "F") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Physics Chapter (F)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -563,12 +563,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					presentations and much more. For more information about our section,
 					go to our website and read more!
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://f.kth.se/en/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -580,7 +580,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Instagram:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/fysiksektionen/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -591,7 +591,7 @@ const showChapterInfo = (chapter: Chapters) => {
 					<p className="break-all">
 						Facebook group:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.facebook.com/groups/physicschapter/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -603,7 +603,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Email:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="mailto:international@f.kth.se"
 						>
 							international@f.kth.se
@@ -615,8 +615,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "Dr") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					PhD Chapter (Dr)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -625,12 +625,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					environment for all PhD students at KTH. The chapter also organises
 					social activities and events for its members.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.dr.kth.se"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -644,8 +644,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "IT") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Chapter for Information Technology (IT)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -665,12 +665,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					chapter events is hosted in English, or will swap to English in an
 					instant, so don't hesitate to join us!
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.kth.it/en"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -682,7 +682,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Instagram:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/itsektionenkth/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -694,7 +694,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Discord:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://discord.com/invite/TcddkaByD8"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -708,8 +708,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "Fria") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Free Chapter (Fria)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -724,8 +724,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "K") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Chemistry Chapter (K)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -741,12 +741,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					Vertias Hermetica. Our Chapter Hall is Draget, short for Dragskåpet
 					and you can find us at Campus.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://kongligkemi.com/en/home"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -760,8 +760,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "M") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-green-500" >
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					The Chapter of Mechanical Engineering (M)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -771,12 +771,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					for all students in the programmes. We also organise social
 					activities and events for our members.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.maskinsektionen.se/en"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -788,7 +788,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Email:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="mailto:internationellagruppen@maskinsektionen.se"
 						>
 							internationellagruppen@maskinsektionen.se
@@ -800,8 +800,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "Me") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Media Technology Chapter (Me)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -811,12 +811,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					in the programme. The chapter also organises social activities and
 					events for its members.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.medieteknik.com/en"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -829,7 +829,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						META Student Website (between D and Me Chapter):{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://metastudent.se"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -841,7 +841,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Email:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="mailto:international@medieteknik.com"
 						>
 							international@medieteknik.com
@@ -853,8 +853,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "W") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Chapter for Energy and Environment (W)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -868,12 +868,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					different activities and committees. W-Inter is our international
 					group and hosts events for everyone!
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://w-sektionen.se/en/front-page/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -886,7 +886,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Email:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="mailto:w-inter@w-sektionen.se"
 						>
 							w-inter@w-sektionen.se
@@ -897,7 +897,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						{" "}
 						Instagram:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/w_international_/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -911,8 +911,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "P") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Production Chapter (P)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -920,12 +920,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					social activities for students from the chapter.
 				</p>
 				{/* https://p-sektionen.se */}
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://p-sektionen.se/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -939,8 +939,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "IsB") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Ingenjörssektionen Bygg (IsB)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -950,12 +950,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					students studying get a wonderful study time and the opportunity
 					evolve.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.isbygg.com"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -969,8 +969,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "OPEN") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Open Chapter
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -1000,8 +1000,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "TBas") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					TBas Chapter
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -1015,8 +1015,8 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "IsF") {
 		return (
-			<div>
-				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-orange-400 mt-8 mb-6">
+			<div className="text-black dark:text-white">
+				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					Ingenjörssektionen Flemingsberg (IsF)
 				</h1>
 				<p className="text-center text-lg mb-4 justify-self-center container">
@@ -1024,12 +1024,12 @@ const showChapterInfo = (chapter: Chapters) => {
 					everybody who studies computer science, electrical and medical
 					technology at Campus Flemingsberg.
 				</p>
-				<div className="text-center text-lg border-2 border-orange-400 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
+				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
 						{" "}
 						Website:{" "}
 						<a
-							className="text-orange-400 underline"
+							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://isflemingsberg.se"
 							target="_blank"
 							rel="noopener noreferrer"

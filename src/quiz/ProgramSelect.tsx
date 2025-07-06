@@ -50,7 +50,7 @@ function ProgrammeSelector({
 	};
 
 	return (
-		<div className="text-white flex justify-center mb-8 items-center place-self-center flex-col">
+		<div className="dark:text-white text-gray-800 flex justify-center mb-8 items-center place-self-center flex-col">
 			<p>Select your programme</p>
 			{/* if the text at select is long, instead of extending past the screen, put it over multiple lines */}
 			<select

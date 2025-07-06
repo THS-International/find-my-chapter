@@ -12,7 +12,7 @@ function ProgrammeTypeSelector({
 	programmeType,
 }: Props) {
 	return (
-		<div className="text-white flex justify-center mb-8 items-center place-self-center flex-col">
+		<div className="dark:text-white text-gray- flex justify-center mb-8 items-center place-self-center flex-col">
 			<p className="w-screen text-center">
 				Select your programme type. eg if you are studying a Master's degree,
 				select Master's Degree

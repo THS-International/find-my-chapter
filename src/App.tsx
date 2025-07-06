@@ -21,7 +21,7 @@ function App() {
 				<p className="text-center text-gray-700 dark:text-gray-200 mt-2 mb-4 w-full px-4">
 					Created by Dylan Horn Kreiner in 2025. This site is still under
 					development (clearly lol) for any urgent issues (like your programme
-					not being listed), please contact{" "}
+					not being listed), please complain at{" "}
 					<a href="mailto:it@thsint.se" className="underline">
 						it@thsint.se
 					</a>
