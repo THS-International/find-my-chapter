@@ -312,6 +312,11 @@ const programMap: Partial<Record<ProgramType, Program[]>> = {
 			chapter: "W",
 		},
 		{
+			code: "TIETM",
+			name: "Renewable Energy (EIT InnoEnergy)",
+			chapter: "W",
+		},
+		{
 			code: "TMESM",
 			name: "Environomical Pathways for Sustainable Energy Systems (EIT InnoEnergy)",
 			chapter: "W",
