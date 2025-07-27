@@ -88,9 +88,9 @@ const showChapterInfo = (chapter: Chapters) => {
 					Lärarsektionen (CL) is the chapter for students in the Teacher's
 					programme at KTH. The chapter is a part of THS and works to improve
 					the education and study environment for all students in the programme.
-					Lärarsektionen (CL) also organise social activities and events for
-					its members. You will be contacted closer to study start by the
-					chapter for your reception.
+					Lärarsektionen (CL) also organise social activities and events for its
+					members. You will be contacted closer to study start by the chapter
+					for your reception.
 				</p>
 			</div>
 		);
@@ -228,7 +228,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						Facebook:{" "}
 						<a
 							className="dark:text-orange-400 text-cyan-600 underline"
-							href="https://www.facebook.com/emit-international/"
+							href="https://www.facebook.com/share/1CSaAi1AFF/?mibextid=wwXIfr"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -292,7 +292,7 @@ const showChapterInfo = (chapter: Chapters) => {
 						Facebook:{" "}
 						<a
 							className="dark:text-orange-400 text-cyan-600 underline"
-							href="https://www.facebook.com/emit-international/"
+							href="https://www.facebook.com/share/1CSaAi1AFF/?mibextid=wwXIfr"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -760,7 +760,7 @@ const showChapterInfo = (chapter: Chapters) => {
 	}
 	if (chapter === "M") {
 		return (
-			<div className="text-green-500" >
+			<div className="text-green-500">
 				<h1 className="text-4xl font-bold text-center dark:text-orange-400 text-cyan-800 mt-8 mb-6">
 					The Chapter of Mechanical Engineering (M)
 				</h1>
@@ -768,8 +768,8 @@ const showChapterInfo = (chapter: Chapters) => {
 					The Mechanical Engineering Chapter (M) is the chapter for students in
 					the Mechanical Engineering related programmes at KTH. The chapter is a
 					part of THS and works to improve the education and study environment
-					for all students in the programmes. We also organise social
-					activities and events for our members.
+					for all students in the programmes. We also organise social activities
+					and events for our members.
 				</p>
 				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
@@ -1045,8 +1045,8 @@ const showChapterInfo = (chapter: Chapters) => {
 		<>
 			<p>
 				Something went wrong, if this persists whenever you choose this
-				programme, please report this to it@thsint.se (including the programme) so that we can rectify it
-				as soon as possible
+				programme, please report this to it@thsint.se (including the programme)
+				so that we can rectify it as soon as possible
 			</p>
 		</>
 	);
