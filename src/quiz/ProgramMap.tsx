@@ -287,8 +287,8 @@ const programMap: Partial<Record<ProgramType, Program[]>> = {
 	],
 	joint: [
 		{
-			code: "TDSEM",
-			name: "Decentralized Smart Energy Systems",
+			code: "TIETM",
+			name: "Nuclear Energy Engineering (EIT InnoEnergy)",
 			chapter: "W",
 		},
 		{
