@@ -314,8 +314,14 @@ const showChapterInfo = (chapter: Chapters) => {
 					Management programme at KTH. The chapter is a part of THS and works to
 					improve the education and study environment for all students in the
 					programme. Industriell Ekonomi (I) also organises social activities
-					and events for its members. Join our Whatsapp group! There we publish
-					all fun events happening 😎
+					and events for its members. Make sure to join their WhatsApp group for
+					international students and their chapter’s Facebook group! That’s
+					where they’ll post all the info about the fun events happening outside
+					your studies 😎. Their committee — The International Group — organises
+					events dedicated to international students to take part in and is
+					happy to share tips and answer questions about both academics and
+					free‑time activities. You can reach them through the WhatsApp group or
+					at internationellt@iare.nu.
 				</p>
 				<div className="text-center text-lg border-2 dark:border-orange-400 border-amber-600 rounded-lg p-4 mb-8 mr-8 ml-8 justify-self-center container">
 					<p className="break-all">
@@ -359,9 +365,9 @@ const showChapterInfo = (chapter: Chapters) => {
 						Email:{" "}
 						<a
 							className="dark:text-orange-400 text-cyan-600 underline"
-							href="mailto:international@iare.nu"
+							href="mailto:internationellt@iare.nu"
 						>
-							international@iare.nu
+							internationellt@iare.nu
 						</a>
 					</p>
 				</div>
@@ -752,6 +758,54 @@ const showChapterInfo = (chapter: Chapters) => {
 							rel="noopener noreferrer"
 						>
 							kongligkemi.com/
+						</a>
+					</p>
+					<p className="break-all">
+						{" "}
+						Whatsapp:{" "}
+						<a
+							className="dark:text-orange-400 text-cyan-600 underline"
+							href="https://chat.whatsapp.com/COwPaup9ufC7N1MQPqg8sH"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							https://chat.whatsapp.com/COwPaup9ufC7N1MQPqg8sH
+						</a>
+					</p>
+					<p className="break-all">
+						{" "}
+						International Group Instagram:{" "}
+						<a
+							className="dark:text-orange-400 text-cyan-600 underline"
+							href="https://www.instagram.com/cia.kth"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							https://www.instagram.com/cia.kth
+						</a>
+					</p>
+					<p className="break-all">
+						{" "}
+						Chapter Instagram:{" "}
+						<a
+							className="dark:text-orange-400 text-cyan-600 underline"
+							href="https://www.instagram.com/kemisektionen"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							https://www.instagram.com/kemisektionen
+						</a>
+					</p>
+					<p className="break-all">
+						{" "}
+						Chapter Facebook (posts in English):{" "}
+						<a
+							className="dark:text-orange-400 text-cyan-600 underline"
+							href="https://www.facebook.com/share/g/1YaeVBVF6H/?mibextid=wwXIfr"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							https://www.facebook.com/share/g/1YaeVBVF6H/?mibextid=wwXIfr
 						</a>
 					</p>
 				</div>
