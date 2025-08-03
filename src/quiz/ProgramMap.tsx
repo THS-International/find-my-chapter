@@ -232,6 +232,11 @@ const programMap: Partial<Record<ProgramType, Program[]>> = {
 			name: "Engineering Chemistry",
 			chapter: "K",
 		},
+		{
+			code: "CTMAT",
+			name: "Engineering Mathematics",
+			chapter: "F"
+		}
 	],
 	dual: [
 		{
