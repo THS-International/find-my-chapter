@@ -450,7 +450,7 @@ const showChapterInfo = (chapter: Chapters) => {
 					</p>
 					<p className="break-all">
 						{" "}
-						International Group:{" "}
+						International Group Instagram:{" "}
 						<a
 							className="dark:text-orange-400 text-cyan-600 underline"
 							href="https://www.instagram.com/integrflightchapter/"
